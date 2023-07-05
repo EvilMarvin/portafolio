@@ -1,0 +1,63 @@
+.formacion{
+    background: #eaf2fd;
+    border: solid #eaf2fd 1px;
+    font-family: 'Raleway';
+}
+
+.formacion__titulo{
+    text-align: center;
+    font-size: 32px;
+    margin-top: 5rem;
+}
+
+.formacion__cursos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.formacion__caja{
+    background: #ffffff;
+    width: 368px;
+    height: 347px;
+    padding: 16px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px ;
+    
+}
+
+.formacion__caja li{
+   
+    list-style: none;
+    
+}
+
+.formacion__item__img{
+    width: 192px;
+    height: 130px;
+    padding-left: 50px;
+}
+
+.formacion__item__titulo{
+    color: #464646;
+    font-size: 22px;
+    line-height: 25.83px;
+}
+
+
+
+.formacion__item__subtitulo{
+    color: #464646;
+    font-size: 16px;
+    line-height: 18.78px;
+    
+}
+
+@media screen and (max-width: 768px){
+    
+    .formacion__cursos{
+        flex-direction: column;
+        align-items: center;
+    }
+}

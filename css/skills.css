@@ -1,0 +1,89 @@
+.skills{
+    background: #f5f5f5;
+    border: solid #f5f5f5 1px;
+    font-family: 'Raleway';
+}
+
+.skill__titulo{
+    text-align: center;
+    font-size: 32px;
+}
+
+.skill__linea{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.skill__caja{
+    background: #ffffff;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px ;
+    
+}
+
+.skill__caja li{
+   
+    list-style: none;
+    margin-top: 15px;
+}
+
+.skill__nombre{
+    font-size: 16px;
+}
+
+/*  ----- hobbies ------ */
+
+.hobbies{
+    background: #f5f5f5;
+    border: solid #f5f5f5 1px;
+    font-family: 'Raleway';
+}
+
+.hobbies__titulo{
+    text-align: center;
+    font-size: 32px;
+}
+
+.hobbies__linea{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hobbies__caja{
+    background: #ffffff;
+    width: 176px;
+    height: 174px;
+    padding: 16px;
+    gap: 8px;
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 50px ;
+    
+}
+
+.hobbies__caja li{
+   
+    list-style: none;
+    margin-top: 15px;
+}
+
+.hobbies__nombre{
+    font-size: 16px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .skill__linea{
+        flex-wrap: wrap;
+    }
+
+    .hobbies__linea{
+        flex-wrap: wrap;
+    }
+}

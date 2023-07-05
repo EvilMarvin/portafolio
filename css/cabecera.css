@@ -1,0 +1,61 @@
+.cabecera{
+    align-items: center;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    padding: 32px ;
+    font-family: 'Raleway';
+    
+    
+}
+
+.logo_name{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+      
+}
+
+.icono{
+    margin-right: 1rem;
+    width: 24px;
+    height: 24px;
+}
+
+.nombre{
+   font-size: 17px;
+   line-height: 18.78px;
+   width:102px;
+   height: 19px;
+   color: #464646;
+}
+
+.menu__lista{
+    display: flex;
+}
+
+.menu__item{
+    list-style: none;
+}
+
+.menu__link{
+    text-decoration: none;
+    margin-right: 2rem;
+}
+
+.menu__link--activo{
+    color: #333333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .menu__lista{
+        flex-wrap: wrap;
+        padding: 20px;
+    }
+
+
+}

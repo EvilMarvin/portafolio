@@ -1,0 +1,57 @@
+.cabecera2{
+    display: flex;
+    background: #f5f5f5;
+    justify-content: space-evenly;
+    padding: 35px ;
+    font-family: 'Raleway';
+    
+}
+
+.mis__datos{
+    padding-top: 5rem;
+}
+
+.link__lista{
+    display: flex;
+}
+
+.link__item{
+    list-style: none;
+}
+
+.link__link{
+    text-decoration: none;
+    
+}
+
+.mis__datos p{
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+.link__link{
+    font-size: 16px;
+    color: #464646;
+}
+.icono__flecha{
+    margin-right: 2rem;
+    width: 24px;
+    height: 24px;
+}
+
+.foto_perfil{
+    width: 360px;
+    height: 360px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .cabecera2{
+        flex-direction: column-reverse;
+    }
+
+    .foto_perfil{
+        width: 120px;
+        height: 120px;
+    }
+}

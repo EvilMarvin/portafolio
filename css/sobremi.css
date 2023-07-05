@@ -1,0 +1,33 @@
+.sobre{
+    background: #EAF2FD;
+    height: 350px;
+    border: solid #EAF2FD 1px;
+    font-family: 'Raleway';
+}
+
+.sobre__mi{
+    height: 255px;
+    align-items: center;
+    padding: 50px 80px 50px 80px ;
+}
+
+.sobre__mi h2{
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.sobre__mi p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .sobre{
+        
+        padding-bottom: 70vh;
+        gap: 16px;
+    }
+}
